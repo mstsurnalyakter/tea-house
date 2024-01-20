@@ -22,7 +22,13 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Custom Tailwind CSS Color -->
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- Tailwind CSS Custom  Color -->
     <script>
       tailwind.config = {
         theme: {
@@ -42,11 +48,47 @@
       }
     </style>
   </head>
+
   <body class="font-manrope">
     <!-- header section -->
-    <header></header>
+    <header class="container mx-auto">
+      <div class="hero px-5 py-5 md:py-10">
+        <div class="hero-content flex-col lg:flex-row lg:gap-28 md:px-10">
+
+          <div class="text-center md:text-left">
+            <h1 class="text-2xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold">
+              It's good <br />
+              tea time at The <br />
+              Tea House
+            </h1>
+            <p class="py-6 px-4">
+              Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+              Your Taste Buds.
+            </p>
+            <button class="btn bg-gradient-to-r from-red-500 to-amber-500 border-2 border-amber-600 text-white outline-2 rounded-md outline-red-600 font-bold hover:ring-offset-4">
+              Explore More <img src="./images/arrow.png" alt="" />
+            </button>
+          </div>
+
+          <div>
+            <img src="./images/banner.png" class="max-w-sm"/>
+            <!-- rating badge -->
+            <div class="flex items-center space-x-4 drop-shadow-lg bg-white py-4 px-2 w-60 -translate-y-14 rounded-md">
+              <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+              <div>
+                <h3 class="text-3xl">5.00</h3>
+                <p class="opacity-70">Trust Pilot Ratings</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
     <!-- main section -->
-    <main></main>
+    <main class="container mx-auto"></main>
+
     <!-- footer section -->
     <footer></footer>
   </body>
