@@ -51,29 +51,34 @@
 
   <body class="font-manrope">
     <!-- header section -->
-    <header class="container mx-auto">
+    <header class="container mx-auto lg:mb-24 lg:px-24 px-8">
       <div class="hero px-5 py-5 md:py-10">
         <div class="hero-content flex-col lg:flex-row lg:gap-28 md:px-10">
-
           <div class="text-center md:text-left">
-            <h1 class="text-2xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold">
+            <h1
+              class="text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold"
+            >
               It's good <br />
               tea time at The <br />
               Tea House
             </h1>
-            <p class="py-6 px-4">
+            <p class="py-6 sm:px-4">
               Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
               Your Taste Buds.
             </p>
-            <button class="btn bg-gradient-to-r from-red-500 to-amber-500 border-2 border-amber-600 text-white outline-2 rounded-md outline-red-600 font-bold hover:ring-offset-4">
+            <button
+              class="btn bg-gradient-to-r from-red-500 to-amber-500 border-2 border-amber-600 text-white outline-2 rounded-md outline-red-600 font-bold hover:ring-offset-4"
+            >
               Explore More <img src="./images/arrow.png" alt="" />
             </button>
           </div>
 
           <div>
-            <img src="./images/banner.png" class="max-w-sm"/>
+            <img src="./images/banner.png" class="max-w-sm" />
             <!-- rating badge -->
-            <div class="flex items-center space-x-4 drop-shadow-lg bg-white py-4 px-2 w-60 -translate-y-14 rounded-md">
+            <div
+              class="flex items-center space-x-4 drop-shadow-lg bg-white py-4 px-2 w-60 -translate-y-14 rounded-md"
+            >
               <i class="fa-solid fa-star text-3xl text-amber-400"></i>
               <div>
                 <h3 class="text-3xl">5.00</h3>
@@ -81,13 +86,89 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </header>
 
     <!-- main section -->
-    <main class="container mx-auto"></main>
+    <main class="container mx-auto lg:mb-24 lg:px-24 px-8">
+      <!-- feature section -->
+      <section class="text-center space-y-5">
+        <h2 class="text-2xl md:text-4xl lg:text-5xl font-extrabold">
+          Our Featured Products
+        </h2>
+        <p class="opacity-70 text-xl lg:max-w-3xl mx-auto mb-10">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+
+        <!-- feature tea cards container -->
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-10">
+
+          <!-- first card -->
+          <div class="card rounded-md p-8 bg-gradient-to-r from-[#f4f4f4] to-[rgba(244, 244, 244, 0.00)] shadow-xl">
+            <figure>
+              <img
+                src="./images/tea-1.png"
+                alt="Tea"
+              />
+            </figure>
+            <div class="card-body text-center">
+              <h3 class="text-2xl font-bold">Milk Tea</h3>
+              <p class="opacity-80">Creamer could be replaced by fresh milk</p>
+
+            </div>
+          </div>
+
+          <!-- second card -->
+          <div class="card rounded-md p-8 bg-gradient-to-r from-[#f4f4f4] to-[rgba(244, 244, 244, 0.00)] shadow-xl">
+            <figure>
+              <img
+                src="./images/tea-2.png"
+                alt="Tea"
+              />
+            </figure>
+            <div class="card-body text-center">
+              <h3 class="text-2xl font-bold">Black Tea</h3>
+              <p class="opacity-80">Creamer could be replaced by fresh milk</p>
+
+            </div>
+          </div>
+
+          <!-- third card -->
+          <div class="card rounded-md p-8 bg-gradient-to-r from-[#f4f4f4] to-[rgba(244, 244, 244, 0.00)] shadow-xl">
+            <figure>
+              <img
+                src="./images/tea-3.png"
+                alt="Tea"
+              />
+            </figure>
+            <div class="card-body text-center">
+              <h3 class="text-2xl font-bold">Lemon Tea</h3>
+              <p class="opacity-80">Creamer could be replaced by fresh milk</p>
+
+            </div>
+          </div>
+
+          <!-- fourth card -->
+          <div class="card rounded-md p-8 bg-gradient-to-r from-[#f4f4f4] to-[rgba(244, 244, 244, 0.00)] shadow-xl">
+            <figure>
+              <img
+                src="./images/tea-4.png"
+                alt="Tea"
+              />
+            </figure>
+            <div class="card-body text-center">
+              <h3 class="text-2xl font-bold">Green Tea</h3>
+              <p class="opacity-80">Creamer could be replaced by fresh milk</p>
+
+            </div>
+          </div>
+
+        </section>
+      </section>
+    </main>
 
     <!-- footer section -->
     <footer></footer>
